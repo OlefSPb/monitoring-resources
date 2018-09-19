@@ -72,11 +72,7 @@
                             <outputDirectory>${project.build.directory}/lib</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>${basedir}/src/main/resources</directory>
-                                    <includes>
-                                        <include>sigar-amd64-winnt.dll</include>
-                                        <include>sigar-x86-winnt.dll</include>
-                                    </includes>
+                                    <directory>${basedir}/src/main/resources/lib</directory>
                                 </resource>
                             </resources>
                         </configuration>
