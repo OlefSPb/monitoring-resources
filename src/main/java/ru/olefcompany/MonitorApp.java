@@ -6,6 +6,7 @@ import java.io.File;
 
 public class MonitorApp {
     public static void main(String[] args) throws SigarException {
+        System.setProperty("java.library.path", "./lib");
         StringBuilder sb = new StringBuilder();
         Sigar sigar = new Sigar();
         CpuInfo cpu = sigar.getCpuInfoList()[0];
